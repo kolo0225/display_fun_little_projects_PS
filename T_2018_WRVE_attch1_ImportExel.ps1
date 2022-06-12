@@ -1,7 +1,7 @@
 # .\T_2018_WRVE_attch1_ImportExel.ps1
 
 # Package: 
-# 	ImportExcel
+import-module -name ImportExcel
 
 # Purpose:
 #	it populates ROWS of .xlsx with data (up to 676 col)
@@ -81,7 +81,7 @@ function WriteRow-Excel ($Path, $Sheet, $Val, $RowNum, $ColNum, $col_Strt)
 	}
 
 # ------------ param ----------------------------------
-$Path =   'C:\Users\kolo0\Dropbox\Everything\Classes\my_notes\programming\cmd\phy_2018\test.xlsx'
+$Path =   'test.xlsx'
 $Sheet =  'Sheet1'              # sample sheet name
 
 # ///////////// variables that change - rest stay the same \\\\\\\\\\\\\\\\\\\\\\\\\
