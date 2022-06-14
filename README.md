@@ -25,4 +25,13 @@ The `T_2018_WrittenByImportExel.ps1` function is the function you will need to c
 `T_2018_WrittenByImportExel.ps1` & `T_2018_WRVE_attch1_ImportExel.ps1` 
 to your specification prior to run them*
 
+# the  `scrpt_find_dirfromfile.ps1` script 
+
+this script is design to find the directory of the file 
+which you know the file_name and extesion.
+
+once you are in the directory you can perform numerous commands in there
+prior to return to the directory of your choice.
+
+
 **have fun playing with them !**
