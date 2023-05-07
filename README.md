@@ -16,7 +16,7 @@ Then the `T_2018_WRVE_attch1_ImportExel.ps1` function:
 	will project in to the excel (*at the row of your choice*)
 	all days 
 	and 
-	at the row below all all coresponding dates for the whole year
+	at the row below all coresponding dates for the whole year
 
 The `T_2018_WrittenByImportExel.ps1` function is the function you will need to call
 	the `T_2018_WrittenByImportExel.ps1` will autocall the `T_2018_WRVE_attch1_ImportExel.ps1` from within 
